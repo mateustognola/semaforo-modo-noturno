@@ -39,7 +39,8 @@ Cada LED é ligado em série com um resistor de 220 Ω, que limita a corrente. N
 
 O mesmo código também compila para o ESP32. Nesse caso, os pinos passam a ser o GPIO 34 para o LDR (alimentado em 3,3 V) e os GPIO 16, 17 e 18 para os LEDs, e os limiares mudam para a escala de 0 a 4095 do conversor de 12 bits. A escolha é feita automaticamente pela diretiva `#if defined(ARDUINO_ARCH_ESP32)`, de acordo com a placa selecionada na IDE.
 
-_[Inserir aqui a foto do circuito montado na protoboard, com legenda no formato ABNT, por exemplo: "Figura 1 – Protótipo do semáforo montado na protoboard. Fonte: elaborado pelo autor (2026)."]_
+![Protótipo do semáforo montado na protoboard](img/circuito.jpg)
+Figura 1 – Protótipo do semáforo montado na protoboard. Fonte: elaborado pelo autor (2026).
 
 ## 4. Decisão de entrada e saída do modo noturno
 
